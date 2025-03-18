@@ -1,22 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Navbar'
-import Reactslick from './Reactslick'
 import Footer from './Footer'
+import Reactslick from './Reactslick'
+import Cards from './Cards'
+import Discount from './Discount'
+import Arrivals from './Arrivals'
+import BestSales from './BestSales'
+import Routers from './routes/Routers'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-    
-    <Navbar/>
-    <Reactslick/>
-    <Footer/>
-
+       <Routers/>
     </>
-   
-  ) 
+  )
 }
-
 export default App
